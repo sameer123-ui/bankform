@@ -19,7 +19,7 @@ body {
 
 
 .form-container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
     border: 2px solid #E6A823;
     border-radius: 8px;
@@ -477,13 +477,13 @@ pre{
 .radio-container{
     display: flex;
     align-items: center;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .radio-container div{
     display: flex;
     align-items: center;
-    gap: 5px;
+    /* gap: 5px; */
 }
 /* .radio-container-2{
     /* display: flex;
@@ -590,11 +590,146 @@ input[type="tel"]{
     margin-left: 70%;
     width: 80px;
 }
+.form-container-1,
+.form-container-2 {
+    max-width: 800px;
+    border: 2px solid #E6A823;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 50%; 
+}
+.form-container-wrapper{
+    display: flex;
+    gap: 20px;
+}
+.div-left,
+.div-right{
+    flex: 1; /* Allows the divs to share equal space */
+    padding: 8px;
+}
+.item-10{
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.item-11{
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.div-left hr{
+    width: 100px;
+    margin: 8px 0; 
+    margin-left: 45%;
+    margin-bottom: 17%;
+    border: 1px solid #E6A823
+}
+.div-right hr{
+    width: 100px;
+    margin-left: 35%;
+    margin-bottom: 17%;
+    border: 1px solid #E6A823
+}
+.bigbox {
+    display: flex;
+    border: 2px solid #e6a822;
+    width: 650px;
+  
+    background-color: #fdfdfe;
+  }
+
+  /* .bigbox-1 {
+    display: flex;
+    border: 2px solid #e6a822;
+    width: 650px;
+  
+    background-color: #fdfdfe;
+  } */
+.bigbox2 {
+    display: flex;
+    background-color: fff3e3;
+  } 
+  table,
+  tfoot,
+  tr,
+  th,
+  td {
+    border: 2px solid #e6a822;
+    border-collapse: collapse;
+    font-size: 12px;
+    padding: 4px;
+  
+  }
+  
+  th hr{
+    border:1px solid #e6a822;
+    width: 100px;
+    margin-left: 40%;
+  }
+  .fm-2 {
+    border: none;
+    outline: none;
+    width: 120px;
+    background-color: #fdfdfe;
+  
+  }
 
 
+  .sec-cont {
+    display: flex;
+  }
+
+  .sec123 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .acc-sign hr{
+    border: 1px solid #E6A823;
+    width: 150px;
+    margin-left: 650px;
+  }
+  .acc-sign p{
+    margin-left: 680px;
+  }
+ 
+  .part1 {
+    /* border: 2px solid blue; */
+    height: 300px;
+    width: 350px;
+  }
+  
+  .part2 {
+    /* border: 2px solid blue; */
+    height: 300px;
+    width: 350px;
+  
+  }
+  
+  .segment1,
+  .segment2 {
+    display: flex;
+  
+  }
+.boxn {
+  width: 100px;
+  height: 120px;
+  border-radius: 8px;
+  border: 2px solid #e6a822;
+  position: absolute;
+  right: 10px;
+  bottom: 14px;
+}  
 @media print {
     .page-break {
-        page-break-before: always; /* Forces a page break before the element */
+        page-break-before: always; 
         display: block;
     }
 }
